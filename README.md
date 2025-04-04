@@ -1,16 +1,10 @@
-> It's the how that always stops me.
-> Knives and razors are out for me. I have this thing about blood.
-> Pills? I don't even have a doctor, let alone the feelgood variety.
-> Carbon monoxide sounds good in theory, but in practice it always feels like too much like work.
-> Getting a tube the right size to fit the exhaust pipe and long enough to reach in the side window, all the rest of it.
-> It's like you want to kill yourself, that's fine, but first you have to remodel the basement. 
-> You end up thinking, the hell with it, I'll do it tomorrow.
-  
+> "It's the how that always stops me. Knives and razors are out for me. I have this thing about blood... Pills? I don't even have a doctor, let alone the feelgood variety. Carbon monoxide sounds good in theory, but in practice it always feels like too much like work. Getting a tube the right size to fit the exhaust pipe and long enough to reach in the side window, all the rest of it. It's like you want to kill yourself, that's fine, but first you have to remodel the basement. You end up thinking, the hell with it, I'll do it tomorrow."
+>  
 > \- Michael Dibdin (Thanksgiving, 2000)
 
 ## Introduction
 
-It is easy to get lost when trying to find the right software for an IP camera. Proprietary vs FOSS, "video devices", protocols, configuration, errors...
+It is easy to get lost when trying to find the right software for an IP camera. Proprietary vs FOSS, cloud or local, "video devices", protocols, configuration, errors...
 
 <table align="center">
     <tr>
@@ -23,9 +17,9 @@ It is easy to get lost when trying to find the right software for an IP camera. 
     </tr>
 </table>
 
-## Setup
+Here is a simple memo to do automatic motion detection and video storage on Ubuntu 22.04 for a basic ONVIF-compatible or generic RTSP camera assumed to be within the same LAN as the storage PC.
 
-Here is a simple way to do automatic motion detection and video storage on Ubuntu 22.04 for a basic ONVIF-compatible or generic RTSP camera assumed to be within the same LAN as the storage PC.
+## Setup
 
 Get the network address of the camera somehow:
 
