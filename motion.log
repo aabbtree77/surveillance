@@ -1,0 +1,94 @@
+[0:motion] [NTC] [ALL] [Apr 04 23:33:22] motion_startup: Motion 4.3.2 Started
+[0:motion] [NTC] [ALL] [Apr 04 23:33:22] motion_startup: Using default log type (ALL)
+[0:motion] [NTC] [ALL] [Apr 04 23:33:22] motion_startup: Using log type (ALL) log level (NTC)
+[0:motion] [NTC] [ENC] [Apr 04 23:33:22] ffmpeg_global_init: ffmpeg libavcodec version 58.134.100 libavformat version 58.76.100
+[0:motion] [NTC] [ALL] [bal. 04 23:33:2] translate_init: Language: English
+[0:motion] [NTC] [ALL] [bal. 04 23:33:2] motion_start_thread: Camera ID: 0 is from /home/tokyo/.motion/motion.conf
+[0:motion] [NTC] [ALL] [bal. 04 23:33:2] motion_start_thread: Camera ID: 0 Camera Name: (null) Service: rtsp:
+[0:motion] [NTC] [ALL] [bal. 04 23:33:2] main: Waiting for threads to finish, pid: 9503
+[1:ml1] [NTC] [ALL] [bal. 04 23:33:2] motion_init: Camera 0 started: motion detection Enabled
+[1:ml1] [NTC] [VID] [bal. 04 23:33:2] vid_start: Opening Netcam RTSP
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_ntc: 
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_ntc: ******************************************************
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_ntc: The network camera is sending pictures in a different
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_ntc: size than specified in the configuration file.
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_ntc: The picture is being transcoded into the size 
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_ntc: requested in the configuration.  If possible change
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_ntc: netcam or configuration to indicate the same size
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_ntc: to possibly lower CPU usage.
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_ntc: Netcam: 2592 x 1944 => Config: 640 x 480
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_ntc: ******************************************************
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_ntc: 
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_connect: Normal resolution: Camera ((null)) connected
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_start_handler: Requested frame rate 15 FPS is less than camera frame rate 20 FPS
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_start_handler: Increasing capture rate to 20 FPS to match camera.
+[1:ml1] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_start_handler: To lower CPU, change camera FPS to lower rate and decrease I frame interval.
+[1:ml1] [NTC] [ALL] [bal. 04 23:33:2] image_ring_resize: Resizing pre_capture buffer to 1 items
+[2:nc2] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_handler: Normal resolution: Camera handler thread [2] started
+[2:nc2] [NTC] [NET] [bal. 04 23:33:2] netcam_rtsp_connect: Normal resolution: Camera ((null)) connected
+[1:ml1] [NTC] [ALL] [bal. 04 23:33:2] image_ring_resize: Resizing pre_capture buffer to 5 items
+[1:ml1] [NTC] [EVT] [bal. 04 23:34:2] event_newfile: File of type 8 saved to: /home/tokyo/Videos/01-20250404233456.mkv
+[1:ml1] [NTC] [ALL] [bal. 04 23:34:2] motion_detected: Motion detected - starting event 1
+[1:ml1] [NTC] [ALL] [bal. 04 23:35:2] mlp_actions: End of event 1
+[1:ml1] [NTC] [EVT] [bal. 04 23:36:2] event_newfile: File of type 8 saved to: /home/tokyo/Videos/02-20250404233649.mkv
+[1:ml1] [NTC] [ALL] [bal. 04 23:36:2] motion_detected: Motion detected - starting event 2
+[1:ml1] [NTC] [ALL] [bal. 04 23:37:2] mlp_actions: End of event 2
+[1:ml1] [NTC] [ALL] [bal. 04 23:37:2] mlp_actions: End of event 3
+[1:ml1] [NTC] [ALL] [bal. 04 23:37:2] motion_loop: Thread exiting
+[1:ml1] [NTC] [NET] [bal. 04 23:37:2] netcam_rtsp_cleanup: Normal resolution: Shut down complete.
+[0:motion] [NTC] [ALL] [bal. 04 23:37:2] main: Threads finished
+[0:motion] [NTC] [ALL] [bal. 04 23:37:2] main: Motion terminating
+[0:motion] [NTC] [ALL] [bal. 04 23:37:2] motion_remove_pid: Closing logfile (/home/tokyo/Videos/motion.log).
+[0:motion] [NTC] [ALL] [Apr 04 23:38:06] motion_startup: Motion 4.3.2 Started
+[0:motion] [NTC] [ALL] [Apr 04 23:38:06] motion_startup: Using default log type (ALL)
+[0:motion] [NTC] [ALL] [Apr 04 23:38:06] motion_startup: Using log type (ALL) log level (NTC)
+[0:motion] [NTC] [ENC] [Apr 04 23:38:06] ffmpeg_global_init: ffmpeg libavcodec version 58.134.100 libavformat version 58.76.100
+[0:motion] [NTC] [ALL] [bal. 04 23:38:6] translate_init: Language: English
+[0:motion] [NTC] [ALL] [bal. 04 23:38:6] motion_start_thread: Camera ID: 0 is from /home/tokyo/.motion/motion.conf
+[0:motion] [NTC] [ALL] [bal. 04 23:38:6] motion_start_thread: Camera ID: 0 Camera Name: (null) Service: rtsp:
+[0:motion] [NTC] [ALL] [bal. 04 23:38:6] main: Waiting for threads to finish, pid: 9924
+[1:ml1] [NTC] [ALL] [bal. 04 23:38:6] motion_init: Camera 0 started: motion detection Enabled
+[1:ml1] [NTC] [VID] [bal. 04 23:38:6] vid_start: Opening Netcam RTSP
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_ntc: 
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_ntc: ******************************************************
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_ntc: The network camera is sending pictures in a different
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_ntc: size than specified in the configuration file.
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_ntc: The picture is being transcoded into the size 
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_ntc: requested in the configuration.  If possible change
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_ntc: netcam or configuration to indicate the same size
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_ntc: to possibly lower CPU usage.
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_ntc: Netcam: 2592 x 1944 => Config: 640 x 480
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_ntc: ******************************************************
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_ntc: 
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_connect: Normal resolution: Camera ((null)) connected
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_start_handler: Requested frame rate 15 FPS is less than camera frame rate 20 FPS
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_start_handler: Increasing capture rate to 20 FPS to match camera.
+[2:nc2] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_handler: Normal resolution: Camera handler thread [2] started
+[1:ml1] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_start_handler: To lower CPU, change camera FPS to lower rate and decrease I frame interval.
+[1:ml1] [NTC] [ALL] [bal. 04 23:38:6] image_ring_resize: Resizing pre_capture buffer to 1 items
+[2:nc2] [NTC] [NET] [bal. 04 23:38:6] netcam_rtsp_connect: Normal resolution: Camera ((null)) connected
+[1:ml1] [NTC] [ALL] [bal. 04 23:38:6] image_ring_resize: Resizing pre_capture buffer to 5 items
+[1:ml1] [NTC] [EVT] [bal. 04 23:38:6] event_newfile: File of type 8 saved to: /home/tokyo/Videos/01-20250404233832.mkv
+[1:ml1] [NTC] [ALL] [bal. 04 23:38:6] motion_detected: Motion detected - starting event 1
+[1:ml1] [NTC] [ALL] [bal. 04 23:39:6] mlp_actions: End of event 1
+[1:ml1] [NTC] [EVT] [bal. 04 23:40:6] event_newfile: File of type 8 saved to: /home/tokyo/Videos/02-20250404234041.mkv
+[1:ml1] [NTC] [ALL] [bal. 04 23:40:6] motion_detected: Motion detected - starting event 2
+[1:ml1] [NTC] [ALL] [bal. 04 23:41:6] mlp_actions: End of event 2
+[1:ml1] [NTC] [EVT] [bal. 04 23:42:6] event_newfile: File of type 8 saved to: /home/tokyo/Videos/03-20250404234219.mkv
+[1:ml1] [NTC] [ALL] [bal. 04 23:42:6] motion_detected: Motion detected - starting event 3
+[1:ml1] [NTC] [ALL] [bal. 04 23:43:6] mlp_actions: End of event 3
+[1:ml1] [NTC] [EVT] [bal. 04 23:43:6] event_newfile: File of type 8 saved to: /home/tokyo/Videos/04-20250404234351.mkv
+[1:ml1] [NTC] [ALL] [bal. 04 23:43:6] motion_detected: Motion detected - starting event 4
+[1:ml1] [NTC] [ALL] [bal. 04 23:45:6] mlp_actions: End of event 4
+[1:ml1] [NTC] [EVT] [bal. 04 23:46:6] event_newfile: File of type 8 saved to: /home/tokyo/Videos/05-20250404234616.mkv
+[1:ml1] [NTC] [ALL] [bal. 04 23:46:6] motion_detected: Motion detected - starting event 5
+[1:ml1] [NTC] [ALL] [bal. 04 23:47:6] mlp_actions: End of event 5
+[1:ml1] [NTC] [EVT] [bal. 04 23:48:6] event_newfile: File of type 8 saved to: /home/tokyo/Videos/06-20250404234823.mkv
+[1:ml1] [NTC] [ALL] [bal. 04 23:48:6] motion_detected: Motion detected - starting event 6
+[1:ml1] [NTC] [ALL] [bal. 04 23:49:6] mlp_actions: End of event 6
+[1:ml1] [NTC] [EVT] [bal. 04 23:49:6] event_newfile: File of type 8 saved to: /home/tokyo/Videos/07-20250404234925.mkv
+[1:ml1] [NTC] [ALL] [bal. 04 23:49:6] motion_detected: Motion detected - starting event 7
+[1:ml1] [NTC] [ALL] [bal. 04 23:49:6] mlp_actions: End of event 7
+[1:ml1] [NTC] [EVT] [bal. 04 23:50:6] event_newfile: File of type 8 saved to: /home/tokyo/Videos/08-20250404235008.mkv
+[1:ml1] [NTC] [ALL] [bal. 04 23:50:6] motion_detected: Motion detected - starting event 8
+[1:ml1] [NTC] [ALL] [bal. 04 23:50:6] mlp_actions: End of event 8
